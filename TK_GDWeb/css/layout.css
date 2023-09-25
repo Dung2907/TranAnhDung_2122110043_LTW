@@ -1,0 +1,85 @@
+.grid{
+    margin:0 7%;
+}
+
+.copyright {
+    padding:0 8%;
+}
+
+.bd-radius {
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.bd-radius-icon {
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.fs-icons {
+    font-size: 30px;
+}
+a {
+    color: #24272D;
+    text-decoration: none;
+}
+.navbar-color {
+    
+    background-image: linear-gradient(to right,#cc580b, #4c25d9,#4ea3f3);
+    
+}
+
+.bg-footer {
+    background-color: #060e1c;
+    color: #fff;
+}
+li {
+    list-style: none;
+}
+.font-color {
+    color: #848690;
+}
+.link-hv:hover {
+    color: #ff4800;
+}
+.font-color a{
+    color: #fff;
+}
+
+
+.footer-all {
+    background-color: #24272D;
+}
+.dtt-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.product__img {
+    position: relative;
+    display: inline-block;
+    overflow: hidden; /*chống tran hinh */
+}
+
+.hover-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease; 
+    transform: scale(1);
+}
+.product__img:hover .hover-img {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.cart-add {
+    font-size:xx-small;
+}
+
+.product {
+    border: 1px solid rgb(222, 217, 217); 
+}
+.product:hover {
+    border: 2px solid rgb(255, 144, 65);
+}

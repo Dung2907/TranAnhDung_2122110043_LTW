@@ -1,0 +1,10 @@
+{
+    "name": "trananhdung/shop-ban-hang",
+    "description": "Xay dung website ban hang- thay Loi day",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "application/"
+        }
+    },
+    "require": {}
+}
